@@ -14,7 +14,7 @@
 .drug-search-box-submit{
     padding: 12px;
     font-size: large;
-    border-radius: 0px 4px 4px 0px;
+    border-radius: 0px 10px 10px 0px;
     border-color: none;
     /* background-color: rgb(25,39,70); */
     background-color: rgb(47,156,237);
@@ -28,9 +28,9 @@
 }
 
 .drug-search-box{
-    width: 70%;
-    padding: 12px;
-    border-radius: 2px 0px 0px 2px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
     font-size: 20px;
     border-style: none;
     border: 1px solid darkslategray
@@ -48,5 +48,8 @@
         padding: 9;
         font-size: 18px;
         width: 30%;
+    }
+    .drug-search-box, .drug-search-box-submit{
+        border-radius: 10px;
     }
 }
