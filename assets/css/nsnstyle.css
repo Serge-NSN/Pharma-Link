@@ -53,6 +53,11 @@
 #view-all:hover{
   background-color: rgb(48, 125, 240);
 }
+
+h4{
+    color: rgb(180, 83, 13);
+}
+
 /* Media queries for smaller screen */
 @media (max-width: 991px) {
     .drug-search-box{

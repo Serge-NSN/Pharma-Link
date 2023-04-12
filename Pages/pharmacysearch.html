@@ -49,8 +49,8 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto" href="../index.html">Home</a></li>
-          <li><a class="nav-link scrollto active" href="drugsearch.html">Search Drug</a></li>
-          <li><a class="nav-link scrollto" href="pharmacysearch.html">Find Pharmacy</a></li>
+          <li><a class="nav-link scrollto" href="drugsearch.html">Search Drug</a></li>
+          <li><a class="nav-link scrollto active" href="pharmacysearch.html">Find Pharmacy</a></li>
           <li><a class="nav-link scrollto" href="#FAQS">FAQS</a></li>
           <li><a class="nav-link scrollto" href="#About">About</a></li>
           <li><a class="getstarted btn scrollto" href="#about">Admin</a></li>
@@ -60,30 +60,32 @@
     </div>
   </header><!-- End Header -->
   <br><br>
+  
   <!-- ======= Hero Section ======= -->
   
     <section class="container search-page h-auto">
-        <div class="container-fluid search-div" border-radius: 2px;">
+        <p class="text-center text-primary fw-bold"><a href="#viewAll" id="view-all">Explore all Pharmacies <i class="bi bi-box-arrow-up-right"></i></a></p>
+        <div class="container-fluid search-div" border-radius: 2px;>
+            
             <div class="conatainer">
                     <form action="">
-                        <input type="text" name="" id="" placeholder="Type name of drug here" class="drug-search-box">
+                        <input type="text" name="" id="" placeholder="Name of Pharmacy" class="drug-search-box">
                         <button type="submit" class="drug-search-box-submit">Search</button>
                     </form>
         </div>
         </div>
         <br>
-        <h4>Results</h4>
+        <h4 style="color: chocolate;">Suggested based on location</h4>
         <hr class="mt-0">
 
          <!-- Search results -->
-         <div class="row row-cols-2 row-cols-md-4 g-2">
+        <div class="row row-cols-2 row-cols-md-4 g-2">
           <div class="col">
             <div class="card h-90">
-              <img src="../assets/img/drugs/hydroxychloroquine.jpg" class="card-img-top pharm-img" alt="...">
+              <img src="../assets/img/Amen-Pharmacy.png" class="card-img-top pharm-img" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Hydroxychloroquine</h5>
-                <p class="text-success">Available</p>
-                <p class="card-text"><small><i class="bi bi-geo"></i> Amen Pharmacy</small></p>
+                <h5 class="card-title">Amen Pharmacy</h5>
+                <p class="card-text"><small>Ndamukong Street, opposite Legacy Drinking Spot.</small></p>
               </div>
               <div class="card-footer">
                 <button class="btn btn-outline-primary btn-sm w-100" type="button">View</button>
@@ -92,11 +94,10 @@
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="../assets/img/drugs/paracetamol.png" class="card-img-top pharm-img" alt="...">
+              <img src="../assets/img/pharm1.jpg" class="card-img-top pharm-img" alt="...">
               <div class="card-body" style="padding-bottom: -50px;">
-                <h5 class="card-title">Paracetamol</h5>
-                <p class="text-success">Available</p>
-                <p class="card-text"><small><i class="bi bi-geo"></i> Villen Pharmacy</small></p>
+                <h5 class="card-title">Beans Pharmacy</h5>
+                <p class="card-text"><small>Mile 2 Nkwen, above St. Frederick Real Estate Building</small></p>
               </div>
               <div class="card-footer">
                 <button class="btn btn-outline-primary btn-sm w-100" type="button">View</button>
@@ -105,11 +106,10 @@
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="../assets/img/drugs/coartem.jpg" class="card-img-top pharm-img" alt="...">
+              <img src="../assets/img/pharm2.png" class="card-img-top pharm-img" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Coartem 20/120</h5>
-                <p class="text-success">Available</p>
-                <p class="card-text"><small><i class="bi bi-geo"></i> Family Pharmacy</small></p>
+                <h5 class="card-title">City Chemist Pharmacy</h5>
+                <p class="card-text"><small>City Chemist, Opposite Union Bank</small></p>
               </div>
               <div class="card-footer">
                 <button class="btn btn-outline-primary btn-sm w-100" type="button">View</button>
@@ -118,11 +118,10 @@
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="../assets/img/drugs/benylin.jpg" class="card-img-top pharm-img" alt="...">
+              <img src="../assets/img/pharm3.jpg" class="card-img-top pharm-img" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Benylin (Day & Night Tablets)</h5>
-                <p class="text-success">Available</p>
-                <p class="card-text"><small><i class="bi bi-geo"></i> Divine Pharmacy</small></p>
+                <h5 class="card-title">Divine Pharmacy</h5>
+                <p class="card-text"><small>Corners Bambili</small></p>
               </div>
               <div class="card-footer">
                 <button class="btn btn-outline-primary btn-sm w-100" type="button">View</button>
@@ -130,6 +129,12 @@
             </div>
           </div>
         </div>
+
+        <!-- Link to all pharmacies -->
+        <br>
+        
+       
+    </section>
    
  <!-- End Hero -->
 
