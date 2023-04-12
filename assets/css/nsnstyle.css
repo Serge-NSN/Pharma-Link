@@ -7,8 +7,9 @@
 .search-div{
     background-image: url(../img/drugs/pharmcy.jpg);
     background-size: cover;
-
-
+    padding-top: 120px;
+    padding-bottom: 100px;
+    text-align: center;
 }
 
 .drug-search-box-submit{
@@ -33,9 +34,25 @@
     border-radius: 10px 0px 0px 10px;
     font-size: 20px;
     border-style: none;
-    border: 1px solid darkslategray
+    border: 1px solid white;
 }
 
+.pharm-img{
+    height: 200px;
+}
+
+#view-all{
+    margin-top: 16px;
+    float: right;
+    color: snow;
+    font-weight: 400;
+    padding: 5px;
+    background-color:chocolate;
+    border-radius: 2px;
+}
+#view-all:hover{
+  background-color: rgb(48, 125, 240);
+}
 /* Media queries for smaller screen */
 @media (max-width: 991px) {
     .drug-search-box{
@@ -43,7 +60,6 @@
         font-size: 18px;
     }
     .drug-search-box-submit{
-        margin-left: 35%;
         margin-top: 15px;
         padding: 9;
         font-size: 18px;
