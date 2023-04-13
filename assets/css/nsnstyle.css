@@ -58,6 +58,9 @@ h4{
     color: rgb(180, 83, 13);
 }
 
+.profile-details{
+    padding-top: 45px;
+}
 /* Media queries for smaller screen */
 @media (max-width: 991px) {
     .drug-search-box{
@@ -72,5 +75,8 @@ h4{
     }
     .drug-search-box, .drug-search-box-submit{
         border-radius: 10px;
+    }
+    .profile-details{
+        padding-top: 12px;
     }
 }
