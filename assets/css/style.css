@@ -466,7 +466,7 @@ section {
   font-size: 26px;
 }
 
-.hero .btn-get-started{
+.hero .btn-search-drug{
   margin-top: 30px;
   line-height: 0;
   padding: 15px 40px;
@@ -490,20 +490,20 @@ section {
   width: 50%;
 }
 
-.hero .btn-get-started span, .hero .btn-manage-my-pharmacy span{
+.hero .btn-search-drug span, .hero .btn-manage-my-pharmacy span{
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
 }
 
-.hero .btn-get-started i, .hero .btn-manage-my-pharmacy i {
+.hero .btn-search-drug i, .hero .btn-manage-my-pharmacy i {
   margin-left: 5px;
   font-size: 18px;
   transition: 0.3s;
 }
 
-.hero .btn-get-started:hover i, .hero .btn-manage-my-pharmacy:hover i{
+.hero .btn-search-drug:hover i, .hero .btn-manage-my-pharmacy:hover i{
   transform: translateX(5px);
 }
 
@@ -559,7 +559,7 @@ section {
     width: 100%;
   }
 
-  .hero .btn-get-started, .hero .btn-manage-my-pharmacy{
+  .hero .btn-search-drug, .hero .btn-manage-my-pharmacy{
     width: 100%;
   }
 }
