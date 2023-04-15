@@ -63,47 +63,62 @@
 
   <br><br><br>
   <section class="container">
-    <h4 style="color: rgb(1, 49, 121); text-align: center; font-weight: 600;">Login to Manage your Phamarcy</h4>
+    <h4 style="color: rgb(1, 49, 121); text-align: center; font-weight: 600;">Register Phamarcy</h4>
     <hr class="mt-0">
-    <form action="" class="login">
+
+    <form style="padding: 10px 20px 10px 20px;">
+        <h5 class="text-center">Manager Details</h5>
+        <div class="row">
+          <div class="col-md-5 mb-3 mt-2">
+            <label for="fname" class="form-label">First Name</label>
+            <input type="text" class="form-control w" id="fname" placeholder="Enter first name" name="fname">
+          </div>
+          <div class="col-md-7 mb-3 mt-2">
+            <label for="fname" class="form-label">Last Name:</label>
+            <input type="text" class="form-control w" id="fname" placeholder="Enter last name" name="fname">
+          </div>
+          <div class="col-md-5 mb-3 mt-2">
+           
+            <label class="mb-2">Gender:</label><br>
+            <label for="one">
+                <input type="radio" id="one" name="first_item" value="1" />
+                Male
+            </label>
+            <label for="one">
+                <input type="radio" id="one" name="first_item" value="1" />
+                Female
+            </label>
+            
+          </div>
+            <div class="col-md-7 mb-3 mt-2" style="width:400px;">
+                <label for="">Contact:</label>
+                <div class="input-group mt-2">
+                    <span class="input-group-text">+237</span>
+                    <input type="number" class="form-control" placeholder="">
+                </div>
+          </div>
+    
         
-        <div class="mb-3 mt-3">
-          <label for="email" class="form-label">Email:</label>
-          <input type="email" class="form-control w" id="email" placeholder="Enter email" name="email">
-        </div>
-        <div class="mb-3">
-          <label for="pwd" class="form-label">Password:</label>
-          <input type="password" class="form-control w" id="pwd" placeholder="Enter password" name="pswd">
-        </div>
-        <div class="form-check mb-3">
-          <label class="form-check-label">
-            <input class="form-check-input " type="checkbox" name="remember"> Remember me
-          </label>
-        </div>
-        <div class="" style="font-weight: 500; font-size: 15px;">
-            <a class="text-primary" href="">Forgot Password?</a>
-        </div><br>
-        <div class="text-center">
-            <button type="submit" class="btn ">Login</button><br>
         </div>
         
-        <br>
-        <h6>Not Registered? <a class="text-primary" href="register.html">Click to Register</a></h6>
-        
+        <hr>
+
+        <form style="padding: 10px 20px 10px 20px;">
+            <h5 class="text-center">Pharmacy Details</h5>
+
       </form>
+  
 
-
-      
     </section>
 
 
 
-  <!-- Vendor JS Files -->
+    <!-- Vendor JS Files -->
 
-  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
-  <!-- Template Main JS File -->
-  <script src="../assets/js/main.js"></script>  
-  </body>
-  </html>
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>  
+</body>
+</html>
