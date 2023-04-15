@@ -83,6 +83,9 @@ h4{
 form a:hover{
     text-decoration: underline;
 }
+.register-submit{
+    width: 250px;
+}
 
 /* Media queries for smaller screen */
 @media (max-width: 991px) {
@@ -105,5 +108,8 @@ form a:hover{
     .login{
         width: 100%;
         padding: 0px 10px 40px 10px;
+    }
+    .register-submit{
+        width: 100%;
     }
 }
