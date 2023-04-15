@@ -104,5 +104,6 @@ form a:hover{
     }
     .login{
         width: 100%;
+        padding: 0px 10px 40px 10px;
     }
 }
